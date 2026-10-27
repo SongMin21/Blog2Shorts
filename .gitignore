@@ -1,0 +1,61 @@
+# ---- 환경변수 / 비밀값 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node ----
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Java / Gradle / Maven ----
+target/
+out/
+bin/
+.gradle/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- 로그 / 임시파일 ----
+logs/
+*.log
+tmp/
+.cache/
+
+# ---- 미디어 산출물 ----
+output/
+outputs/
+*.mp4
+*.mov
+*.wav
+*.mp3
